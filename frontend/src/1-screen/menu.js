@@ -36,7 +36,7 @@ const Menu = ({setDisplayMenu}) => {
 
       <div className="menu-label">
         <span className="material-symbols-outlined">format_quote</span>
-        <div className="menu-item">Cơ sở khoa học</div>
+        <div className="menu-item">Cơ sở</div>
       </div>
       
     </div>
