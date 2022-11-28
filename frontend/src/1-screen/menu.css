@@ -1,0 +1,43 @@
+.menu-tab {
+  position: fixed;
+  width: 200px;
+  max-width: 50%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding: 20px 20px;
+  background-color: #eaedf8;
+  z-index: 20;
+}
+
+.menu-header {
+  margin-bottom: 40px;
+}
+
+.menu-label {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 5px 0px 5px 10px;
+}
+
+.menu-item {
+  margin-left: 10px;
+  color: #273b67;
+}
+
+.menu-label:hover {
+  background-color: #A0E4CB;
+  color: #273b67;
+  border-radius: 50px;
+}
+
+.menu-label .material-symbols-outlined {
+  color: #273b67;
+}
+

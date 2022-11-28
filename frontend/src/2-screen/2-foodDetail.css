@@ -1,0 +1,91 @@
+.food-detail { 
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 20px auto;
+  display: flex;  
+  flex-direction: column;
+  align-items: right;
+  background-color: #EEEEEE;
+}
+
+.exit-button-box {
+  display: flex;
+  justify-content: right;
+  padding-right: 10px;
+}
+
+.img-box {
+  margin: 20px auto;
+}
+
+.img-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.food-detail-name {
+  width: fit-content;
+  margin: 0px auto 20px auto;
+  text-align: center;  
+  background-color: #273b67;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.amount-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amount {
+  margin-bottom: 10px;
+  width: 70%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.amount input {
+  position: absolute;
+}
+
+.amount label {
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: white;
+  color: #273b67;
+  width: 100%;
+  z-index: 1;
+  transition: color 0.5s;
+}
+
+.amount input:checked + label {
+  background-color: #273b67;
+  color: white;
+}
+
+.food-detail-submit {
+  margin: 20px auto;
+  width: 70%;
+  min-width: 250px;
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  background-color: #A0E4CB;
+  color: #273b67;
+  transition: color 0.5s;
+}
+
+.amount label:hover {
+  border: 2px solid #273b67;
+}
+
+.food-detail-submit:hover {
+  background-color: #273b67;
+  color: white;
+}

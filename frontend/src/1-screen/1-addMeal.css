@@ -1,0 +1,94 @@
+/* border: 1px solid black; */
+.add-meal {
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #EEEEEE;
+}
+
+.add-meal-header {
+  width: fit-content;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: #273b67;
+  color: white;
+  border-radius: 50px;
+}
+
+.add-meal-box {
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.meal-label {
+  border-radius: 10px;
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: #273b67;
+}
+
+.add-meal-button {
+  border: 2px none;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  background-color: #A0E4CB;
+  color: #273b67;
+  transition: color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* //.recent-add */
+
+.recent-add {
+  margin-top: 5px;
+}
+
+.recent-add-label {
+  padding: 5px 5px 5px 20px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px; 
+  border-radius: 50px;
+  border: 2px solid #273b67;
+  color: #273b67;
+  background-color: white;
+}
+
+.delete-food {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #273b67;
+}
+
+.add-meal-button:hover{
+  backGround-color: #273b67;
+  color: white;
+}
+
+.delete-food:hover {
+  background-color: #273b67;
+  color: white;
+}
+

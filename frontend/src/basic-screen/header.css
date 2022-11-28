@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #FAF3F3;
+}
+  
+.menu-img {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.menu-img img {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  border: 2px solid #273b67;
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-right: 20px;
+  color: #273b67
+}
+
+.menu:hover {
+  background-color: #273b67;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .menu-img {
+    margin-left: 80px;
+  }
+  .menu {
+    margin-right: 80px;
+  }
+}
